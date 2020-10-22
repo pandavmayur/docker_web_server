@@ -21,7 +21,7 @@ jobs:
       run: 
        echo $USER
        echo $PASS
-       docker build . --file Dockerfile --tag maddy300/github:latest
+       docker build . --file Dockerfile --tag pandavmayur/github:latest
        docker login -u $USER -p $PASS
        
-       docker push maddy300/github:latest
+       docker push pandavmayur/github:latest
